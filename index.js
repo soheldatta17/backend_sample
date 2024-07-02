@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // Route to handle GET requests at '/'
 app.get('/', (req, res) => {
-    res.send('Welcome to the Node.js backend example!');
+    res.send('Hi this is a back-end server deployed by Sohel to save the form details. You need an API key to continue...!');
 });
 
 // Route to handle GET requests at '/hello'
